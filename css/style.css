@@ -126,6 +126,7 @@ body {
   line-height: 1.2;
   font-weight: normal;
   color: #000000;
+  background-color:  #2F343A;
 }
 
 /* header start */
@@ -240,13 +241,13 @@ li {
 /* intro star */
 
 .main {
-   background: url(../img/back_intro.jpg) no-repeat center;
-   background-size: cover;
    padding-top: 155px;
-   max-width: 100%;
 }
 
 .intro {
+    background: url(../img/back_intro.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 100%;
     color: #ffff;
     text-align: center;
     height: 620px;
