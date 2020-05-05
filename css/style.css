@@ -240,7 +240,6 @@ li {
 /* intro star */
 
 .main {
-   max-height: 620px;
    background: url(../img/back_intro.jpg) no-repeat center;
    background-size: cover;
    padding-top: 155px;
@@ -250,7 +249,7 @@ li {
 .intro {
     color: #ffff;
     text-align: center;
-    height: 245px;
+    height: 620px;
     padding: 155px 500px 225px;
 }
 
@@ -258,12 +257,12 @@ li {
     border: 1px solid #C8A35F;
     padding: 45px 72px;
     display: inline-block;
-    max-width: 100%;
+    max-width: 777px;
 }
 
 .intro_main_title{
     font-weight: 700;
-    font-size: 64px;
+    font-size: 48px;
     line-height: 75px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -279,6 +278,7 @@ li {
 }
 
 .intro_link{
+    display: block;
     margin-top: 140px;
 }
 /* intro end */
