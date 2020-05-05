@@ -192,7 +192,6 @@ a:active {
 .nav {
   padding-top: 27px;
   padding-bottom: 27px;
-  vertical-align: baseline;
 }
 
 ul,
@@ -210,16 +209,22 @@ li {
   padding-left: 33px;
   padding-right: 13px;
   display: inline-block;
+  position: absolute;
+  padding-top: 12px;
 }
 
 .nav_text {
   line-height: 16px;
   letter-spacing: 0.05em;
   display: inline-block;
+  position: absolute;
+  padding-top: 17px;
+  padding-left: 65px;
 }
 
 .nav_list {
     float: right;
+    padding-top: 17px;
 }
 
 .nav_item{
