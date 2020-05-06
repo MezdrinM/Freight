@@ -137,6 +137,7 @@ body {
   left: 0;
   width: 100%;
   color: white;
+  z-index: 2;
 }
 
 .wrapper_header {
@@ -292,7 +293,7 @@ li {
 /* main_wotd start */
 
 .main_wotd {
-  height: 561px;
+  height: 100vh;
 }
 
 .main_font {
@@ -309,8 +310,7 @@ li {
 }
 
 .main_border {
-  border: 6px solid #c8a35f;
-  max-width: 90px;
+  position: relative;
   margin-top: 120px;
 }
 .main_wotd_title {
@@ -341,6 +341,7 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffff;
+  margin-bottom: 129px;
 }
 
 .main_wotd_img {
@@ -351,10 +352,11 @@ button {
 .main_font_right {
   position: absolute;
   right: 0;
+  top: 0;
   width: 725px;
   height: 561px;
   background-color: #393f47;
-  margin-top: -462px;
+  margin-top: 775px;
 }
 
 .main_left_text {
@@ -391,6 +393,15 @@ button {
   position: absolute;
   display: inline-block;
   left: -95px;
+}
+
+.main_wotd_list{
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-top: 40px;
 }
 
 /* main_wotd end */
