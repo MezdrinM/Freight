@@ -1,0 +1,9 @@
+@media (max-width: 1399px) {
+    .conteiner {
+        width: 1200px;
+    }
+    .header{
+        background: black;
+        padding-top: 50px;
+    }
+}

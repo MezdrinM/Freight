@@ -137,7 +137,7 @@ body {
   left: 0;
   width: 100%;
   color: white;
-  z-index: 2;
+  z-index: 3;
 }
 
 .wrapper_header {
@@ -358,7 +358,8 @@ button {
   z-index: 1;
 }
 
-.main_wotd_text{
+.main_text{
+  display: block;
   z-index: 2;
 }
 
