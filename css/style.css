@@ -453,14 +453,25 @@ article.services_box{
   letter-spacing: 0.05em;
   text-transform: uppercase;
   position: relative;
-  top: 58px;
+  top: 93px;
   left: 42px;
 }
 
 .services_box_plane_white{
   position: relative;
-  top: 35px;
+  top: 55px;
   left: 103px;
+}
+
+.services_box_text_black{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: relative;
+  top: 55px;
+  left: 42px;
 }
 /* main_services end */
 
