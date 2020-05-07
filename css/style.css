@@ -344,7 +344,7 @@ button {
 
 .main_wotd_img {
   margin-top: 166px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .main_font_right {
@@ -355,12 +355,17 @@ button {
   height: 561px;
   background-color: #393f47;
   margin-top: 775px;
+  z-index: 1;
+}
+
+.main_wotd_text{
+  z-index: 2;
 }
 
 .main_left_text {
   position: relative;
-  top: 156px;
-  left: 189px;
+  left: 29px;
+  top: 165px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -371,8 +376,8 @@ button {
 
 .main_right_text {
   position: relative;
+  left: 125px;
   top: 421px;
-  left: 285px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
