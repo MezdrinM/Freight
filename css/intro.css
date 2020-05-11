@@ -1,0 +1,41 @@
+.intro {
+    background: url(../img/back_intro.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+    color: #ffff;
+    text-align: center;
+    height: 620px;
+    padding: 155px 500px 225px;
+  }
+  
+  .intro_main {
+    border: 1px solid #c8a35f;
+    padding: 45px 72px;
+    max-width: 777px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 0 auto;
+  }
+  
+  .intro_main_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .intro_main_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .intro_link {
+    display: block;
+    margin-top: 140px;
+  }

@@ -1,0 +1,114 @@
+.main_font {
+    position: absolute;
+    left: 0;
+    width: 725px;
+    height: 561px;
+    background-color: #393f47;
+  }
+  
+  .main_title {
+    display: flex;
+    position: relative;
+  }
+  
+  .main_border {
+    position: relative;
+    margin-top: 120px;
+  }
+  .main_wotd_title {
+    display: inline-block;
+    max-width: 480px;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  
+  .main_wotd_text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 30px;
+    max-width: 480px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+  }
+  button {
+    padding: 18px 48px;
+    background-color: #c8a35f;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-bottom: 129px;
+  }
+  
+  .main_wotd_img {
+    margin-top: 166px;
+    z-index: 2;
+  }
+  
+  .main_font_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 725px;
+    height: 561px;
+    background-color: #393f47;
+    margin-top: 775px;
+    z-index: 1;
+  }
+  
+  .main_text{
+    display: block;
+    z-index: 2;
+  }
+  
+  .main_left_text {
+    position: relative;
+    left: 29px;
+    top: 165px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  .main_right_text {
+    position: relative;
+    left: 125px;
+    top: 421px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  .right_arrow {
+    position: absolute;
+    display: inline-block;
+    padding-left: 31px;
+  }
+  
+  .left_arrow {
+    position: absolute;
+    display: inline-block;
+    left: -95px;
+  }
+  
+  .main_wotd_list{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  }
