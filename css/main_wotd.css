@@ -1,7 +1,7 @@
 .main_font {
     position: absolute;
     left: 0;
-    width: 725px;
+    width: 360px;
     height: 561px;
     background-color: #393f47;
   }
@@ -55,7 +55,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 725px;
+    width: 360px;
     height: 561px;
     background-color: #393f47;
     margin-top: 775px;

@@ -1,9 +1,110 @@
-@media (max-width: 1280px) {
-    .conteiner {
-        width: 1200px;
+
+@media all and (min-width: 1108px) and (max-width: 1280px){
+    .main_font{
+        width: 360px;
     }
-    .header{
-        background: black;
-        padding-top: 50px;
+    .main_font_right{
+        width: 360px;
+    }
+    }
+
+  @media all and (min-width: 800px) and (max-width: 1108px){
+        .main_font{
+            width: 240px;
+        }
+        .main_font_right{
+            width: 240px;
+        }
+        .main_text{
+            display: none;
+        }
+        .main_title_font{
+            width: 43%;
+            padding-left: 5px;
+        }
+        .main_border{
+            margin-top: 60px;
+        }
+        .main_services{
+            padding-left: 5px;
+        }
+        .main_services_box{
+            justify-content: center;
+        }
+        .services_box{
+            margin-right: 2px;
+            margin-bottom: 2px;
+        }
+        .main_company_block{
+            padding-left: 5px;
+            width: 48%;
+        }
+        .main_border_company{
+            margin-top: 60px;
+        }
+        .company_box{
+            justify-content: flex-start;
+        }
+        .main_company_box{
+            display: none;
+        }
+        .main_company_text{
+            width: 340px;
+            po
+        }
+        .maps{
+            margin-top: 60px;
+        }
+        .footer_tel{
+            margin-left: 50px;
+        }
+        }
+
+@media (max-width: 799px){
+    .nav_logo{
+        display: none;
+    }
+    .main_wotd_img{
+        display: block;
+        position: absolute;
+        opacity: .3;
+        right: 0;
+    }
+    .main_text{
+        display: none;
+    }
+    .main_font{
+        display: none;
+    }
+    .main_font_right{
+        display: none;
+    }
+    .main_title_font{
+        margin: 0 auto;
+    }
+    .main_border{
+     margin-top: 60px;
+    }
+    .main_company_box{
+        display: none;
+    }
+    .main_company{
+        display: block;
+    }
+    .main_company_block{
+        display: flex;
+        flex-direction: column;
+       justify-content: flex-start;
+    }
+    .main_border_company{
+        margin-top: 60px;
+    }
+    button {
+        margin-bottom: 0px;
     }
 }
+
+
+ 
+
+ 
