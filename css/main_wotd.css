@@ -66,41 +66,39 @@
     display: block;
     z-index: 2;
   }
-  
+
+  .main_text_arrow_left{
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      margin-top: 156px;
+  }
+
   .main_left_text {
-    position: relative;
-    left: 29px;
-    top: 165px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-right: 31px;
   }
   
   .main_right_text {
-    position: relative;
-    left: 125px;
-    top: 421px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-right: 31px;
   }
-  
-  .right_arrow {
-    position: absolute;
-    display: inline-block;
-    padding-left: 31px;
-  }
-  
-  .left_arrow {
-    position: absolute;
-    display: inline-block;
-    left: -95px;
+
+  .main_text_arrow_right{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 255px;
   }
   
   .main_wotd_list{
