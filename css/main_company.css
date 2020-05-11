@@ -40,6 +40,7 @@
     height: 160px;
     border: 0.25px solid #C8A35F;
     background: #FFFFFF;
+    margin: 0;
   }
 
   .company_flex{
@@ -70,10 +71,6 @@
     display: flex;
     flex-flow: row wrap;
     z-index: 1;
-    margin-top: 200px;
-    margin-left: 63px;
-  }
-
-  .company_box_flex{
-    margin: 0;
+    align-self: flex-end;
+    justify-content: flex-end;
   }

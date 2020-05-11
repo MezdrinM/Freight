@@ -5,7 +5,7 @@
     color: #ffff;
     text-align: center;
     height: 620px;
-    padding: 155px 500px 225px;
+    
   }
   
   .intro_main {
@@ -16,6 +16,8 @@
     align-items: center;
     flex-flow: column;
     margin: 0 auto;
+    position: relative;
+    top: 155px;
   }
   
   .intro_main_title {
@@ -37,5 +39,6 @@
   
   .intro_link {
     display: block;
-    margin-top: 140px;
+    position: relative;
+    top: 282px;
   }
