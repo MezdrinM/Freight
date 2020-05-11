@@ -26,10 +26,11 @@
       border-radius: 50%;
       background: #ffff;
       line-height: 85px;
-      text-align: center;
-      position: relative;
-      top: 35px;
-      left: 103px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 35px;
     }
     
     .services_box_text{
@@ -38,15 +39,19 @@
       line-height: 22px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      position: relative;
-      top: 93px;
-      left: 42px;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      justify-content: center;
+      margin-top: 43px;
     }
     
     .services_box_plane_white{
-      position: relative;
-      top: 55px;
-      left: 103px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 55px;
     }
     
     .services_box_text_black{
@@ -55,7 +60,9 @@
       line-height: 22px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      position: relative;
-      top: 55px;
-      left: 42px;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      justify-content: center;
+      margin-top: 23px;
     }
