@@ -61,8 +61,19 @@
         }
 
 @media (max-width: 799px){
-    .nav_logo{
+    .nav_text{
         display: none;
+    }
+    .nav_logo_vector{
+        display: none;
+    }
+    .nav{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .intro_main{
+        padding: 0;
+        margin: 0 20px;
     }
     .main_wotd_img{
         display: block;
@@ -80,30 +91,49 @@
         display: none;
     }
     .main_title_font{
-        margin: 0 auto;
+        margin-left: 20px;
     }
     .main_border{
      margin-top: 60px;
+     margin-left: 20px;
+    }
+    .main_wotd_list{
+        margin-left: 20px;
     }
     .main_company_box{
         display: none;
     }
     .main_company{
-        display: block;
+        display: flex;
+        flex-flow: row wrap;
     }
     .main_company_block{
-        display: flex;
-        flex-direction: column;
-       justify-content: flex-start;
+        margin-left: 20px;
     }
     .main_border_company{
         margin-top: 60px;
     }
+    .main_company_text{
+        width: 100%;
+    }
     button {
         margin-bottom: 0px;
     }
+    .company_box{
+        display: flex;
+        justify-content: center;
+    }
+    .maps{
+        margin-top: 60px;
 }
-
+    .foot_text{
+        display: none;
+    }
+    .footer_tel{
+        margin: 0 auto;
+    }
+  
+}
 
  
 
